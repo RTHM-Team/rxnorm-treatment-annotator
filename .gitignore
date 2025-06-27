@@ -8,9 +8,11 @@ venv/
 env/
 ENV/
 
-# Data files (except core medications and examples)
+# Data files (except core medications, examples, and supplements)
 *.csv
 !data/rxnorm_core_medications.csv
+!data/cerbo_supplements.csv
+!cerbo_supplements.csv
 !examples/*.csv
 
 # Keep consolidated file out of git (too large)
