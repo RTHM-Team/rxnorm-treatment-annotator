@@ -6,11 +6,13 @@ A tool for annotating clinical treatment names with standardized RxNorm identifi
 - **100% brand-generic unification** for all major medications
 - **Comprehensive unification** of 19,927 drug groups covering 65,938 entries
 - **Perfect consistency** - brand and generic names return same RXCUIs
+- **Supplements support** - integrate with Cerbo EHR supplements database
+- **Dual annotation** - matches both medications (RxNorm) and supplements
 - Handles brand names, generic names, and abbreviations
 - Smart parenthetical notation parsing (e.g., "Pyridostigmine (Mestinon)")
 - Includes completely unified core medications database (124,609 entries)
 - Fast exact-match lookups for performance
-- Self-contained - no external data files needed
+- Self-contained - no external data files needed for basic use
 
 ## Quick Start
 
@@ -79,11 +81,25 @@ The repository is **self-contained** - no additional data files needed!
 
 ### Basic Usage
 ```bash
-# Run with sample data
+# Medications only (RxNorm database)
 python scripts/annotate_treatments.py
 
+# Comprehensive annotation (medications + supplements)
+python scripts/annotate_treatments_comprehensive.py
+
 # Run with your own treatment file
-python scripts/annotate_treatments.py path/to/your/treatments.csv
+python scripts/annotate_treatments_comprehensive.py path/to/your/treatments.csv
+```
+
+### Supplements Integration
+```bash
+# 1. Fetch supplements from Cerbo EHR
+export CERBO_USERNAME='your_username'
+export CERBO_PASSWORD='your_password'
+python scripts/fetch_supplements_from_cerbo.py
+
+# 2. Run comprehensive annotation
+python scripts/annotate_treatments_comprehensive.py
 ```
 
 ### Creating the Unified Database
@@ -127,6 +143,29 @@ Nexium + Prilosec + esomeprazole → RXCUI: 1435522
 
 Whether you search for "Advil" or "ibuprofen", you get the same RXCUI and consistent results!
 
+## Comprehensive Treatment Annotation
+
+The system now supports **dual annotation** covering both medications and supplements:
+
+### Two-Tier Matching Strategy
+1. **First**: Check RxNorm medications database (124,609 entries)
+   - Medications, drugs, prescriptions
+   - Unified brand-generic pairs
+   - Standard RXCUIs
+
+2. **Second**: Check supplements database (if available)
+   - Vitamins, minerals, herbs, probiotics
+   - Cerbo EHR integration
+   - Supplement-specific identifiers
+
+### Example Comprehensive Results
+```
+Tylenol          → RxNorm RXCUI: 161 (medication)
+Vitamin D3       → Supplement ID: 1234 (supplement)  
+Ibuprofen        → RxNorm RXCUI: 643349 (medication)
+Probiotics       → Supplement ID: 5678 (supplement)
+```
+
 ## How It Works
 
 1. **Loads unified RxNorm database** - Completely unified core medications with brand-generic consistency
@@ -142,9 +181,13 @@ Whether you search for "Advil" or "ibuprofen", you get the same RXCUI and consis
 ## Available Scripts
 
 ### Core Scripts
-- `annotate_treatments.py` - Main annotation script for treatment files
+- `annotate_treatments.py` - Main annotation script for treatment files (RxNorm only)
+- `annotate_treatments_comprehensive.py` - **Comprehensive annotation (RxNorm + supplements)**
 - `create_enhanced_annotation.py` - Enhanced annotation with improved matching
 - `create_optimized_annotation.py` - Optimized annotation for performance
+
+### Supplements Integration Scripts
+- `fetch_supplements_from_cerbo.py` - **Fetch supplements from Cerbo EHR API**
 
 ### Database Creation Scripts  
 - `create_unified_rxnorm_core.py` - **Complete database creation from RRF files**
@@ -158,13 +201,23 @@ Whether you search for "Advil" or "ibuprofen", you get the same RXCUI and consis
 
 ## Output Format
 
-The annotated CSV includes:
+### Basic Annotation (RxNorm only)
 - `Treatment Name` - Original treatment name
 - `RXCUI` - Matched RxNorm identifier (unified for brand/generic pairs)
 - `Matched Drug Name` - Standardized drug name from RxNorm
 - `Term Type` - RxNorm term type (BN=Brand, IN=Ingredient, PT=Preferred Term)
 - `Match Type` - Whether match was exact or fuzzy
 - `Confidence` - Matching confidence score
+
+### Comprehensive Annotation (RxNorm + Supplements)
+- `treatment_name` - Original treatment name
+- `match_source` - Source of match: 'rxnorm', 'supplements', or 'no_match'
+- `match_type` - Whether match was 'exact', 'fuzzy', or 'no_match'
+- `confidence` - Matching confidence score (0-1)
+- `matched_name` - Standardized name from database
+- `identifier` - RXCUI (medications) or supplement ID (supplements)
+- `category` - Term type (medications) or supplement class (supplements)
+- `additional_info` - Extra details about the match
 
 ## Contributing
 

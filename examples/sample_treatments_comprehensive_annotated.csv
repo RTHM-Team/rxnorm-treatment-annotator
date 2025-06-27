@@ -1,0 +1,89 @@
+treatment_name,match_source,match_type,confidence,matched_name,identifier,category,additional_info
+Low Dose Naltrexone,rxnorm,fuzzy,0.8,Gel-One,1369806,BN,RxNorm preferred_term_type: BN
+low dose naltrexone,rxnorm,fuzzy,0.8,Gel-One,1369806,BN,RxNorm preferred_term_type: BN
+Paxlovid,rxnorm,exact,1.0,Paxlovid,2591200,BN,RxNorm preferred_term_type: BN
+paxlovid,rxnorm,exact,1.0,Paxlovid,2591200,BN,RxNorm preferred_term_type: BN
+Nattokinase,rxnorm,exact,1.0,Nattokinase,53553,IN,RxNorm preferred_term_type: IN
+nattokinase,rxnorm,exact,1.0,Nattokinase,53553,IN,RxNorm preferred_term_type: IN
+Aspirin,rxnorm,exact,1.0,Aspirin,1191,PT,RxNorm preferred_term_type: PT
+aspirin,rxnorm,exact,1.0,Aspirin,1191,PT,RxNorm preferred_term_type: PT
+Eliquis,rxnorm,exact,1.0,Eliquis,1364430,BN,RxNorm preferred_term_type: BN
+eliquis,rxnorm,exact,1.0,Eliquis,1364430,BN,RxNorm preferred_term_type: BN
+Famotidine,rxnorm,exact,1.0,Famotidine,4278,PT,RxNorm preferred_term_type: PT
+famotidine,rxnorm,exact,1.0,Famotidine,4278,PT,RxNorm preferred_term_type: PT
+Coenzyme Q10,rxnorm,exact,1.0,Coenzyme Q10,21406,BN,RxNorm preferred_term_type: BN
+coenzyme q10,rxnorm,exact,1.0,Coenzyme Q10,21406,BN,RxNorm preferred_term_type: BN
+Metformin,rxnorm,exact,1.0,Metformin,6809,PT,RxNorm preferred_term_type: PT
+metformin,rxnorm,exact,1.0,Metformin,6809,PT,RxNorm preferred_term_type: PT
+Ketotifen,rxnorm,exact,1.0,Ketotifen,6146,PT,RxNorm preferred_term_type: PT
+ketotifen,rxnorm,exact,1.0,Ketotifen,6146,PT,RxNorm preferred_term_type: PT
+Monolaurin,rxnorm,exact,1.0,Monolaurin,1990422,SY,RxNorm preferred_term_type: SY
+monolaurin,rxnorm,exact,1.0,Monolaurin,1990422,SY,RxNorm preferred_term_type: SY
+Vitamin D,rxnorm,exact,1.0,Vitamin D,11253,IN,RxNorm preferred_term_type: IN
+vitamin d,rxnorm,exact,1.0,Vitamin D,11253,IN,RxNorm preferred_term_type: IN
+Quercetin,rxnorm,exact,1.0,Quercetin,9060,PT,RxNorm preferred_term_type: PT
+quercetin,rxnorm,exact,1.0,Quercetin,9060,PT,RxNorm preferred_term_type: PT
+Maraviroc,rxnorm,exact,1.0,Maraviroc,620216,PT,RxNorm preferred_term_type: PT
+maraviroc,rxnorm,exact,1.0,Maraviroc,620216,PT,RxNorm preferred_term_type: PT
+N-Acetyl Cysteine,rxnorm,exact,1.0,N-Acetyl Cysteine,197,IN,RxNorm preferred_term_type: IN
+n-acetyl cysteine,rxnorm,exact,1.0,N-Acetyl Cysteine,197,IN,RxNorm preferred_term_type: IN
+Clopidogrel,rxnorm,exact,1.0,Clopidogrel,32968,PT,RxNorm preferred_term_type: PT
+clopidogrel,rxnorm,exact,1.0,Clopidogrel,32968,PT,RxNorm preferred_term_type: PT
+Propranolol,rxnorm,exact,1.0,Propranolol,8787,PT,RxNorm preferred_term_type: PT
+propranolol,rxnorm,exact,1.0,Propranolol,8787,PT,RxNorm preferred_term_type: PT
+Triple therapy,rxnorm,fuzzy,0.8,Ice Gel Therapy,692834,BN,RxNorm preferred_term_type: BN
+triple therapy,rxnorm,fuzzy,0.8,Ice Gel Therapy,692834,BN,RxNorm preferred_term_type: BN
+Low Dose Naltrexone (LDN),rxnorm,fuzzy,0.8,Gel-One,1369806,BN,RxNorm preferred_term_type: BN
+low dose naltrexone (ldn),rxnorm,fuzzy,0.8,Gel-One,1369806,BN,RxNorm preferred_term_type: BN
+Vitamin C,rxnorm,exact,1.0,Vitamin C,1151,IN,RxNorm preferred_term_type: IN
+vitamin c,rxnorm,exact,1.0,Vitamin C,1151,IN,RxNorm preferred_term_type: IN
+Cetirizine,rxnorm,exact,1.0,Cetirizine,203150,PT,RxNorm preferred_term_type: PT
+cetirizine,rxnorm,exact,1.0,Cetirizine,203150,PT,RxNorm preferred_term_type: PT
+Pantoprazole,rxnorm,exact,1.0,Pantoprazole,40790,PT,RxNorm preferred_term_type: PT
+pantoprazole,rxnorm,exact,1.0,Pantoprazole,40790,PT,RxNorm preferred_term_type: PT
+Prednisone,rxnorm,exact,1.0,Prednisone,8640,PT,RxNorm preferred_term_type: PT
+prednisone,rxnorm,exact,1.0,Prednisone,8640,PT,RxNorm preferred_term_type: PT
+Magnesium,rxnorm,exact,1.0,Magnesium,6574,PT,RxNorm preferred_term_type: PT
+magnesium,rxnorm,exact,1.0,Magnesium,6574,PT,RxNorm preferred_term_type: PT
+Zyrtec,rxnorm,exact,1.0,ZyrTEC,203150,BN,RxNorm preferred_term_type: BN
+zyrtec,rxnorm,exact,1.0,ZyrTEC,203150,BN,RxNorm preferred_term_type: BN
+Pravastatin,rxnorm,exact,1.0,Pravastatin,42463,PT,RxNorm preferred_term_type: PT
+pravastatin,rxnorm,exact,1.0,Pravastatin,42463,PT,RxNorm preferred_term_type: PT
+vitamin D,rxnorm,exact,1.0,Vitamin D,11253,IN,RxNorm preferred_term_type: IN
+Vitamin D3,rxnorm,exact,1.0,Vitamin D3,2418,IN,RxNorm preferred_term_type: IN
+vitamin d3,rxnorm,exact,1.0,Vitamin D3,2418,IN,RxNorm preferred_term_type: IN
+Ubiquinol,rxnorm,exact,1.0,ubiquinol,39085,IN,RxNorm preferred_term_type: IN
+ubiquinol,rxnorm,exact,1.0,ubiquinol,39085,IN,RxNorm preferred_term_type: IN
+Midodrine,rxnorm,exact,1.0,Midodrine,6963,PT,RxNorm preferred_term_type: PT
+midodrine,rxnorm,exact,1.0,Midodrine,6963,PT,RxNorm preferred_term_type: PT
+Loratadine,rxnorm,exact,1.0,Loratadine,275635,PT,RxNorm preferred_term_type: PT
+loratadine,rxnorm,exact,1.0,Loratadine,275635,PT,RxNorm preferred_term_type: PT
+Melatonin,rxnorm,exact,1.0,Melatonin,6711,PT,RxNorm preferred_term_type: PT
+melatonin,rxnorm,exact,1.0,Melatonin,6711,PT,RxNorm preferred_term_type: PT
+Liposomal Glutathione,rxnorm,exact,1.0,Liposomal glutathione,2645011,SY,RxNorm preferred_term_type: SY
+liposomal glutathione,rxnorm,exact,1.0,Liposomal glutathione,2645011,SY,RxNorm preferred_term_type: SY
+coenzyme Q10,rxnorm,exact,1.0,Coenzyme Q10,21406,BN,RxNorm preferred_term_type: BN
+Guanfacine,rxnorm,exact,1.0,Guanfacine,40114,PT,RxNorm preferred_term_type: PT
+guanfacine,rxnorm,exact,1.0,Guanfacine,40114,PT,RxNorm preferred_term_type: PT
+Zinc,rxnorm,exact,1.0,Zinc,11416,PT,RxNorm preferred_term_type: PT
+zinc,rxnorm,exact,1.0,Zinc,11416,PT,RxNorm preferred_term_type: PT
+Mestinon,rxnorm,exact,1.0,Mestinon,9000,BN,RxNorm preferred_term_type: BN
+mestinon,rxnorm,exact,1.0,Mestinon,9000,BN,RxNorm preferred_term_type: BN
+Multivitamin,rxnorm,exact,1.0,Multivitamin,89905,BN,RxNorm preferred_term_type: BN
+multivitamin,rxnorm,exact,1.0,Multivitamin,89905,BN,RxNorm preferred_term_type: BN
+NAC,rxnorm,exact,1.0,NAC,197,BN,RxNorm preferred_term_type: BN
+nac,rxnorm,exact,1.0,NAC,197,BN,RxNorm preferred_term_type: BN
+Vitamin B12,rxnorm,exact,1.0,Vitamin B12,11248,IN,RxNorm preferred_term_type: IN
+vitamin b12,rxnorm,exact,1.0,Vitamin B12,11248,IN,RxNorm preferred_term_type: IN
+Serrapeptase,rxnorm,exact,1.0,Serrapeptase,36434,PT,RxNorm preferred_term_type: PT
+serrapeptase,rxnorm,exact,1.0,Serrapeptase,36434,PT,RxNorm preferred_term_type: PT
+Montelukast,rxnorm,exact,1.0,Montelukast,88249,PT,RxNorm preferred_term_type: PT
+montelukast,rxnorm,exact,1.0,Montelukast,88249,PT,RxNorm preferred_term_type: PT
+Gabapentin,rxnorm,exact,1.0,Gabapentin,25480,PT,RxNorm preferred_term_type: PT
+gabapentin,rxnorm,exact,1.0,Gabapentin,25480,PT,RxNorm preferred_term_type: PT
+Famciclovir,rxnorm,exact,1.0,Famciclovir,68099,PT,RxNorm preferred_term_type: PT
+famciclovir,rxnorm,exact,1.0,Famciclovir,68099,PT,RxNorm preferred_term_type: PT
+vitamin C,rxnorm,exact,1.0,Vitamin C,1151,IN,RxNorm preferred_term_type: IN
+Jardiance,rxnorm,exact,1.0,Jardiance,1545659,BN,RxNorm preferred_term_type: BN
+jardiance,rxnorm,exact,1.0,Jardiance,1545659,BN,RxNorm preferred_term_type: BN
+NAD+,rxnorm,exact,1.0,NAD+,1044975,SY,RxNorm preferred_term_type: SY
