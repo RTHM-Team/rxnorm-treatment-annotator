@@ -55,6 +55,26 @@ The repository is **self-contained** - no additional data files needed!
 - **Brand-generic unification**: 100% for major medications
 - **Production ready**: Tested and verified
 
+## Data Sources
+
+### Included Data
+- **rxnorm_core_medications.csv** - Completely unified core database (40MB)
+- **Ready to use** - No additional downloads required for annotation
+
+### Original RxNorm Data (Not Included)
+- **RxNorm RRF files** not included due to:
+  - Size: 1.2GB total (exceeds GitHub limits)
+  - Licensing: NLM/NIH specific redistribution terms
+  - Updates: Monthly releases require constant updates
+- **Download from**: https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html
+- **Only needed for**: Recreating database from scratch
+
+### Why This Approach?
+✅ **Repository stays lightweight** (manageable size)  
+✅ **Respects RxNorm licensing** (proper attribution)  
+✅ **Self-contained for users** (includes final database)  
+✅ **Reproducible for developers** (includes all scripts)
+
 ## Usage Examples
 
 ### Basic Usage
@@ -67,6 +87,12 @@ python scripts/annotate_treatments.py path/to/your/treatments.csv
 ```
 
 ### Creating the Unified Database
+
+**Prerequisites**: Download RxNorm RRF files from NLM:
+1. Visit: https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html  
+2. Download RxNorm Full Monthly Release
+3. Extract `RXNCONSO.RRF` and `RXNREL.RRF` to `rrf/` directory
+
 ```bash
 # To recreate the unified RxNorm core database from RRF files:
 python scripts/create_unified_rxnorm_core.py
@@ -77,6 +103,8 @@ python scripts/verify_unification.py
 # To check for any missed brand-generic pairs:
 python scripts/find_unmatched_brands.py
 ```
+
+**Note**: The repository includes the final unified database, so downloading RRF files is only needed if you want to recreate the database from scratch.
 
 ### Custom Input File
 ```python
