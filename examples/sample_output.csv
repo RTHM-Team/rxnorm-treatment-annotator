@@ -1,0 +1,100 @@
+Treatment Name,normalized_name,core_drug_name,consolidated_match,consolidated_RXCUI,consolidated_drug_name,consolidated_sources,consolidated_term_type,core_match,core_RXCUI,core_sources,core_term_type,recommended_approach,recommended_RXCUI,recommended_drug_name
+Low Dose Naltrexone,low dose naltrexone,Naltrexone,True,7243,Naltrexone,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,7243,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,7243,Naltrexone
+Paxlovid,paxlovid,,True,2591200,Paxlovid,MMSL,BN,False,,,,consolidated,2591200,Paxlovid
+Nattokinase,nattokinase,Nattokinase,True,53553,Nattokinase,DRUGBANK|GS|RXNORM,IN,True,53553,DRUGBANK|GS|RXNORM,IN,consolidated,53553,Nattokinase
+Aspirin,aspirin,Aspirin,True,1191,Aspirin,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,1191,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,1191,Aspirin
+Eliquis,eliquis,,True,1364436,Eliquis,MMSL|RXNORM,BN,False,,,,consolidated,1364436,Eliquis
+Famotidine,famotidine,Famotidine,True,4278,Famotidine,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,4278,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,4278,Famotidine
+Coenzyme Q10,coenzyme q10,,True,21406,Coenzyme Q10,DRUGBANK|MMSL|SNOMEDCT_US,BN,False,,,,consolidated,21406,Coenzyme Q10
+Metformin,metformin,Metformin,True,6809,Metformin,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,6809,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,6809,Metformin
+Ketotifen,ketotifen,Ketotifen,True,6146,Ketotifen,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,6146,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,6146,Ketotifen
+Monolaurin,monolaurin,,True,1990422,Monolaurin,DRUGBANK,SY,False,,,,consolidated,1990422,Monolaurin
+Vitamin D,vitamin d,Vitamin D,True,11253,Vitamin D,DRUGBANK|GS|MMSL|RXNORM,IN,True,11253,DRUGBANK|GS|MMSL|RXNORM,IN,consolidated,11253,Vitamin D
+Quercetin,quercetin,Quercetin,True,9060,Quercetin,DRUGBANK|GS|RXNORM|SNOMEDCT_US,PT,True,9060,DRUGBANK|GS|RXNORM|SNOMEDCT_US,PT,consolidated,9060,Quercetin
+Maraviroc,maraviroc,Maraviroc,True,620216,Maraviroc,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,620216,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,620216,Maraviroc
+N-Acetyl Cysteine,n-acetyl cysteine,N-Acetyl Cysteine,True,197,N-Acetyl Cysteine,GS,IN,True,197,GS,IN,consolidated,197,N-Acetyl Cysteine
+Clopidogrel,clopidogrel,Clopidogrel,True,32968,Clopidogrel,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,32968,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,32968,Clopidogrel
+Propranolol,propranolol,Propranolol,True,8787,Propranolol,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,8787,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,8787,Propranolol
+Triple therapy,triple therapy,,False,,,,,False,,,,none,,
+Low Dose Naltrexone (LDN),low dose naltrexone ldn,,False,,,,,False,,,,none,,
+Vitamin C,vitamin c,Vitamin C,True,1151,Vitamin C,DRUGBANK|GS|MMSL|SNOMEDCT_US,IN,True,1151,DRUGBANK|GS|MMSL|SNOMEDCT_US,IN,consolidated,1151,Vitamin C
+Cetirizine,cetirizine,Cetirizine,True,20610,Cetirizine,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,20610,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,20610,Cetirizine
+Pantoprazole,pantoprazole,Pantoprazole,True,40790,Pantoprazole,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,40790,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,40790,Pantoprazole
+Prednisone,prednisone,Prednisone,True,8640,Prednisone,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,8640,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,8640,Prednisone
+Magnesium,magnesium,Magnesium,True,6574,Magnesium,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,6574,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,6574,Magnesium
+Zyrtec,zyrtec,,True,58930,ZyrTEC,MMSL|RXNORM,BN,False,,,,consolidated,58930,ZyrTEC
+Pravastatin,pravastatin,Pravastatin,True,42463,Pravastatin,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,42463,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,42463,Pravastatin
+Vitamin D3,vitamin d3,Vitamin D3,True,2418,Vitamin D3,DRUGBANK|MMSL|RXNORM|SNOMEDCT_US,IN,True,2418,DRUGBANK|MMSL|RXNORM|SNOMEDCT_US,IN,consolidated,2418,Vitamin D3
+Ubiquinol,ubiquinol,ubiquinol,True,39085,ubiquinol,DRUGBANK|GS|MMSL|RXNORM,IN,True,39085,DRUGBANK|GS|MMSL|RXNORM,IN,consolidated,39085,ubiquinol
+Midodrine,midodrine,Midodrine,True,6963,Midodrine,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,6963,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,6963,Midodrine
+Loratadine,loratadine,Loratadine,True,28889,Loratadine,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,28889,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,28889,Loratadine
+Melatonin,melatonin,Melatonin,True,6711,Melatonin,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,6711,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,6711,Melatonin
+Liposomal Glutathione,liposomal glutathione,,True,2645011,Liposomal glutathione,DRUGBANK,SY,False,,,,consolidated,2645011,Liposomal glutathione
+Guanfacine,guanfacine,Guanfacine,True,40114,Guanfacine,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,40114,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,40114,Guanfacine
+Zinc,zinc,Zinc,True,11416,Zinc,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,11416,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,11416,Zinc
+Mestinon,mestinon,,True,203001,Mestinon,MMSL|RXNORM,BN,False,,,,consolidated,203001,Mestinon
+Multivitamin,multivitamin,,True,89905,Multivitamin,MMSL,BN,False,,,,consolidated,89905,Multivitamin
+NAC,nac,Acetylcysteine,True,197,NAC,DRUGBANK|MMSL,BN,True,197,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,197,NAC
+Vitamin B12,vitamin b12,Vitamin B12,True,11248,Vitamin B12,DRUGBANK|MMSL|RXNORM|SNOMEDCT_US,IN,True,11248,DRUGBANK|MMSL|RXNORM|SNOMEDCT_US,IN,consolidated,11248,Vitamin B12
+Serrapeptase,serrapeptase,Serrapeptase,True,36434,Serrapeptase,DRUGBANK|RXNORM|SNOMEDCT_US,PT,True,36434,DRUGBANK|RXNORM|SNOMEDCT_US,PT,consolidated,36434,Serrapeptase
+Montelukast,montelukast,Montelukast,True,88249,Montelukast,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,88249,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,88249,Montelukast
+Gabapentin,gabapentin,Gabapentin,True,25480,Gabapentin,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,25480,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,25480,Gabapentin
+Famciclovir,famciclovir,Famciclovir,True,68099,Famciclovir,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,68099,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,68099,Famciclovir
+Jardiance,jardiance,,True,1545659,Jardiance,MMSL|RXNORM,BN,False,,,,consolidated,1545659,Jardiance
+NAD+,nad,,True,1044975,NAD,DRUGBANK,SY,False,,,,consolidated,1044975,NAD
+Plavix,plavix,,True,174742,Plavix,MMSL|RXNORM,BN,False,,,,consolidated,174742,Plavix
+Hydrocortisone,hydrocortisone,Hydrocortisone,True,5492,Hydrocortisone,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,5492,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,5492,Hydrocortisone
+Physical Therapy,physical therapy,,False,,,,,False,,,,none,,
+Oxaloacetate,oxaloacetate,Oxaloacetate,True,1661330,Oxaloacetate,DRUGBANK|GS|RXNORM,IN,True,1661330,DRUGBANK|GS|RXNORM,IN,consolidated,1661330,Oxaloacetate
+Valacyclovir,valacyclovir,Valacyclovir,True,73645,Valacyclovir,GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,73645,GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,73645,Valacyclovir
+Nurtec,nurtec,,True,2282314,Nurtec,RXNORM,BN,False,,,,consolidated,2282314,Nurtec
+Turmeric,turmeric,Turmeric,True,1114883,Turmeric,DRUGBANK|MMSL,IN,True,1114883,DRUGBANK|MMSL,IN,consolidated,1114883,Turmeric
+D-Ribose,d-ribose,,True,1314858,D-Ribose,DRUGBANK,SY,False,,,,consolidated,1314858,D-Ribose
+Iron,iron,Iron,True,90176,Iron,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,90176,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,90176,Iron
+Cromolyn,cromolyn,Cromolyn,True,42612,Cromolyn,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,42612,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,42612,Cromolyn
+Harvoni,harvoni,,True,1591944,Harvoni,MMSL|RXNORM,BN,False,,,,consolidated,1591944,Harvoni
+Fludrocortisone,fludrocortisone,Fludrocortisone,True,4452,Fludrocortisone,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,4452,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,4452,Fludrocortisone
+Atorvastatin,atorvastatin,Atorvastatin,True,83367,Atorvastatin,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,83367,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,83367,Atorvastatin
+Pycnogenol,pycnogenol,Pycnogenol,True,1368708,Pycnogenol,DRUGBANK|MMSL,IN,True,1368708,DRUGBANK|MMSL,IN,consolidated,1368708,Pycnogenol
+Trazodone,trazodone,Trazodone,True,10737,Trazodone,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,10737,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,10737,Trazodone
+Pepcid,pepcid,,True,196458,Pepcid,MMSL|RXNORM,BN,False,,,,consolidated,196458,Pepcid
+Benadryl,benadryl,,True,203457,Benadryl,MMSL|RXNORM,BN,False,,,,consolidated,203457,Benadryl
+Botox,botox,,True,203279,Botox,MMSL|RXNORM,BN,False,,,,consolidated,203279,Botox
+Olopatadine,olopatadine,Olopatadine,True,135391,Olopatadine,DRUGBANK|GS|RXNORM|SNOMEDCT_US,PT,True,135391,DRUGBANK|GS|RXNORM|SNOMEDCT_US,PT,consolidated,135391,Olopatadine
+Vascepa,vascepa,,True,1304980,Vascepa,MMSL|RXNORM,BN,False,,,,consolidated,1304980,Vascepa
+Allegra,allegra,,True,324026,Allegra,MMSL|RXNORM,BN,False,,,,consolidated,324026,Allegra
+L-carnitine,l-carnitine,L-Carnitine,True,42955,L-Carnitine,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,IN,True,42955,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,IN,consolidated,42955,L-Carnitine
+N-acetylcysteine,n-acetylcysteine,,True,197,N-acetylcysteine,DRUGBANK|SNOMEDCT_US,SY,False,,,,consolidated,197,N-acetylcysteine
+Pacing,pacing,,False,,,,,False,,,,none,,
+Probiotic,probiotic,,False,,,,,False,,,,none,,
+Ashwagandha,ashwagandha,Ashwagandha,True,164090,Ashwagandha,GS|MMSL,IN,True,164090,GS|MMSL,IN,consolidated,164090,Ashwagandha
+Valtrex,valtrex,,True,152490,Valtrex,MMSL|RXNORM,BN,False,,,,consolidated,152490,Valtrex
+Apixaban,apixaban,Apixaban,True,1364430,Apixaban,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,1364430,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,1364430,Apixaban
+Curcumin,curcumin,Curcumin,True,2955,Curcumin,DRUGBANK|GS|RXNORM,IN,True,2955,DRUGBANK|GS|RXNORM,IN,consolidated,2955,Curcumin
+Pyridostigmine (Mestinon),pyridostigmine mestinon,,False,,,,,False,,,,none,,
+Levothyroxine,levothyroxine,Levothyroxine,True,10582,Levothyroxine,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,10582,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,10582,Levothyroxine
+Cymbalta,cymbalta,,True,482574,Cymbalta,MMSL|RXNORM,BN,False,,,,consolidated,482574,Cymbalta
+Fexofenadine,fexofenadine,Fexofenadine,True,87636,Fexofenadine,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,87636,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,87636,Fexofenadine
+Cromolyn Sodium,cromolyn sodium,Cromolyn Sodium,True,3538,Cromolyn Sodium,GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,3538,GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,3538,Cromolyn Sodium
+sumatriptan,sumatriptan,Sumatriptan,True,37418,Sumatriptan,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,37418,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,37418,Sumatriptan
+Antihistamines,antihistamines,,False,,,,,False,,,,none,,
+Claritin,claritin,,True,203576,Claritin,MMSL|RXNORM,BN,False,,,,consolidated,203576,Claritin
+Fish Oil,fish oil,Fish Oil,True,4419,Fish Oil,DRUGBANK|GS|MMSL|SNOMEDCT_US,PT,True,4419,DRUGBANK|GS|MMSL|SNOMEDCT_US,PT,consolidated,4419,Fish Oil
+Celebrex,celebrex,,True,215927,Celebrex,MMSL|RXNORM,BN,False,,,,consolidated,215927,Celebrex
+Lexapro,lexapro,,True,352741,Lexapro,MMSL|RXNORM,BN,False,,,,consolidated,352741,Lexapro
+Probiotics,probiotics,probiotics,True,813233,probiotics,MMSL,IN,True,813233,MMSL,IN,consolidated,813233,probiotics
+Supplements,supplements,,False,,,,,False,,,,none,,
+Lumbrokinase,lumbrokinase,lumbrokinase,True,2665339,lumbrokinase,RXNORM,IN,True,2665339,RXNORM,IN,consolidated,2665339,lumbrokinase
+Hydroxychloroquine,hydroxychloroquine,Hydroxychloroquine,True,5521,Hydroxychloroquine,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,5521,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,5521,Hydroxychloroquine
+Diphenhydramine,diphenhydramine,Diphenhydramine,True,3498,Diphenhydramine,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,3498,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,3498,Diphenhydramine
+Rosuvastatin,rosuvastatin,Rosuvastatin,True,301542,Rosuvastatin,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,301542,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,301542,Rosuvastatin
+CPAP,cpap,,False,,,,,False,,,,none,,
+Gluten-free diet,gluten-free diet,,False,,,,,False,,,,none,,
+Intravenous Immunoglobulin,intravenous immunoglobulin,Immunoglobulin,True,5720,Immunoglobulin,SNOMEDCT_US,PT,True,5720,SNOMEDCT_US,PT,consolidated,5720,Immunoglobulin
+Doxycycline,doxycycline,Doxycycline,True,3640,Doxycycline,DRUGBANK|MMSL|RXNORM|SNOMEDCT_US,PT,True,3640,DRUGBANK|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,3640,Doxycycline
+Ivabradine,ivabradine,Ivabradine,True,1649480,Ivabradine,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,1649480,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,1649480,Ivabradine
+Tollovid,tollovid,,False,,,,,False,,,,none,,
+magnesium glycinate,magnesium glycinate,magnesium glycinate,True,476818,magnesium glycinate,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,476818,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,476818,magnesium glycinate
+Progesterone,progesterone,Progesterone,True,8727,Progesterone,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,8727,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,8727,Progesterone
+Budesonide,budesonide,Budesonide,True,19831,Budesonide,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,True,19831,DRUGBANK|GS|MMSL|RXNORM|SNOMEDCT_US,PT,consolidated,19831,Budesonide
+Abilify,abilify,,True,352393,Abilify,MMSL|RXNORM,BN,False,,,,consolidated,352393,Abilify

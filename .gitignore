@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Data files (except core medications and examples)
+*.csv
+!data/rxnorm_core_medications.csv
+!examples/*.csv
+
+# Keep consolidated file out of git (too large)
+rxnorm_clinical_consolidated.csv
+rxnorm_clinical.csv
+
+# Large directories
+rrf/
+prescribe/
+to_delete/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+*~
