@@ -66,6 +66,18 @@ python scripts/annotate_treatments.py
 python scripts/annotate_treatments.py path/to/your/treatments.csv
 ```
 
+### Creating the Unified Database
+```bash
+# To recreate the unified RxNorm core database from RRF files:
+python scripts/create_unified_rxnorm_core.py
+
+# To verify the unification is working correctly:
+python scripts/verify_unification.py
+
+# To check for any missed brand-generic pairs:
+python scripts/find_unmatched_brands.py
+```
+
 ### Custom Input File
 ```python
 # Edit the script to point to your treatment file
@@ -99,14 +111,32 @@ Whether you search for "Advil" or "ibuprofen", you get the same RXCUI and consis
 5. **Returns unified RXCUIs** - Brand and generic names map to same identifiers
 6. **Outputs annotated CSV** with RXCUIs and match details
 
+## Available Scripts
+
+### Core Scripts
+- `annotate_treatments.py` - Main annotation script for treatment files
+- `create_enhanced_annotation.py` - Enhanced annotation with improved matching
+- `create_optimized_annotation.py` - Optimized annotation for performance
+
+### Database Creation Scripts  
+- `create_unified_rxnorm_core.py` - **Complete database creation from RRF files**
+- `create_enhanced_core_medications.py` - Create enhanced core from RXNCONSO.RRF
+- `fix_all_remaining_brands.py` - Apply comprehensive brand-generic unification
+
+### Verification and Analysis Scripts
+- `verify_unification.py` - **Verify brand-generic unification success**
+- `find_unmatched_brands.py` - Find any remaining unmatched brand-generic pairs
+- `comprehensive_brand_check.py` - Comprehensive analysis of brand-generic mappings
+
 ## Output Format
 
 The annotated CSV includes:
 - `Treatment Name` - Original treatment name
-- `recommended_RXCUI` - Best matched RxNorm identifier
-- `recommended_drug_name` - Standardized drug name
-- `recommended_approach` - Whether match came from consolidated or core database
-- Additional columns with match details
+- `RXCUI` - Matched RxNorm identifier (unified for brand/generic pairs)
+- `Matched Drug Name` - Standardized drug name from RxNorm
+- `Term Type` - RxNorm term type (BN=Brand, IN=Ingredient, PT=Preferred Term)
+- `Match Type` - Whether match was exact or fuzzy
+- `Confidence` - Matching confidence score
 
 ## Contributing
 
