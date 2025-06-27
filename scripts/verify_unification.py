@@ -17,10 +17,10 @@ def verify_unification():
     
     # Load the unified database
     try:
-        df = pd.read_csv('../data/rxnorm_core_medications.csv', low_memory=False)
+        df = pd.read_csv('data/rxnorm_core_medications.csv', low_memory=False)
         print(f"✅ Loaded database: {len(df):,} entries")
     except FileNotFoundError:
-        print("❌ Database file not found: ../data/rxnorm_core_medications.csv")
+        print("❌ Database file not found: data/rxnorm_core_medications.csv")
         print("Please run create_unified_rxnorm_core.py first")
         return False
     
